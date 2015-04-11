@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+   <head>
+      <script type="text/javascript" src="konami.js"></script>
+   </head>
+
+   <body>
+      <script>
+         function easterEgg(){
+            console.log("Easter Egg enabled");
+            alert("Konami status: " + konami.getKonami());
+         }
+	 var konami = new Konami("easterEgg");
+      </script>
+   </body>
+</html>
